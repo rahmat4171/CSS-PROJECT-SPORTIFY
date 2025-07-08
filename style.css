@@ -294,3 +294,51 @@ a {
     border-radius: 50%;
     margin-top: -6px;
 }
+
+.album {
+    display: flex;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    padding: 5px 10px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.album img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.music-info {
+    flex-grow: 1;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.artist {
+    font-weight: 10px;
+    color: #aaa;
+}
+
+.album-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.album-icons img {
+    font-weight: 5px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.album-icons img:hover {
+    color: #fff;
+}
